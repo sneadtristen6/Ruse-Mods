@@ -1,0 +1,901 @@
+format = 1
+
+[[mod]]
+id = "0-5x-admin-cost-income-v1"
+name = "0.5x Admin Cost/Income"
+version = "1.0.0"
+author = "Football1995, and RossGosling"
+description = "Multiplies both the Price, and Income, of Administration Buildings by 0.5x Note this influences your HQ too"
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/0-5x-admin-cost-income-v1-1.0.0.rusemod"
+size = 1091
+sha256 = "e910db5c58dc3eb7c3b3926c3849b0a0a0f7b0727aff469304466a84487337b9"
+game_build = "24670294"
+tags = ["gameplay"]
+
+[[mod]]
+id = "1-vs-15-ai-v1"
+name = "1 VS 15 AI"
+version = "1.0.0"
+author = "Prolution"
+description = "Can you take on Fifteen AI at once? Test your skills to survive this 1V15 Last operation in Operations, you must force close the game to quit"
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/1-vs-15-ai-v1-1.0.0.rusemod"
+size = 28871
+sha256 = "2d55328302730530b9b1914451e3eb86401b201a8aefc7390a1385a163bf933b"
+game_build = "24670294"
+tags = ["operations"]
+
+[[mod]]
+id = "1-vs-7-ai-v1"
+name = "1 VS 7 AI"
+version = "1.0.0"
+author = "Prolution"
+description = "Can you take on Seven AI at once? Test your skills to survive this 1V7 Last operation in Operations, you must force close the game to quit"
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/1-vs-7-ai-v1-1.0.0.rusemod"
+size = 28628
+sha256 = "02c141fed830b5517585d4c65e6a2c0df57cae05eea02d614b59ecad2bb1dd48"
+game_build = "24670294"
+tags = ["operations"]
+
+[[mod]]
+id = "10-0x-artillery-price-v1"
+name = "10.0x Artillery Price"
+version = "1.0.0"
+author = "Football1995, and RossGosling"
+description = "Multiplies the Price of every Artillery unit by 10.0x"
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/10-0x-artillery-price-v1-1.0.0.rusemod"
+size = 1218
+sha256 = "bf187591a8d4c10be1e8f587cb51369ef225cdea192ec638a37413528c0d3e47"
+game_build = "24670294"
+tags = ["gameplay"]
+
+[[mod]]
+id = "10-0x-assault-gun-price-v1"
+name = "10.0x Assault Gun Price"
+version = "1.0.0"
+author = "Football1995, and RossGosling"
+description = "Multiplies the Price of every Assault Gun unit by 10.0x"
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/10-0x-assault-gun-price-v1-1.0.0.rusemod"
+size = 992
+sha256 = "72719004fca729798b9ccf70ccf6bb2219df04add457a58074102f8f419de09e"
+game_build = "24670294"
+tags = ["gameplay"]
+
+[[mod]]
+id = "10-0x-rocket-launcher-price-v1"
+name = "10.0x Rocket Launcher Price"
+version = "1.0.0"
+author = "Football1995, and RossGosling"
+description = "Multiplies the Price of every Rocket Launcher unit by 10.0x"
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/10-0x-rocket-launcher-price-v1-1.0.0.rusemod"
+size = 948
+sha256 = "70c54b5ffefc8aa60b6f0bda3c5d9e841af1ebb6bf3f01d7f075e9fd5dbe8743"
+game_build = "24670294"
+tags = ["gameplay"]
+
+[[mod]]
+id = "2-0x-building-hp-v1"
+name = "2.0x Building HP"
+version = "1.0.0"
+author = "Football1995, and RossGosling"
+description = "Multiplies the Hit-points of every Building by 2.0x"
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/2-0x-building-hp-v1-1.0.0.rusemod"
+size = 1624
+sha256 = "f5919bfe5f4212f108a8273c981e7f5146e0b0a0090e1504359dc3d63d126df0"
+game_build = "24670294"
+tags = ["gameplay"]
+
+[[mod]]
+id = "8-0x-bunker-hp-v1"
+name = "8.0x Bunker HP"
+version = "1.0.0"
+author = "Football1995, and RossGosling"
+description = "Multiplies the Hit-points of every Bunker by 8.0x Could be paired nicely with the x3.0 Bunker Price mod c:"
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/8-0x-bunker-hp-v1-1.0.0.rusemod"
+size = 1295
+sha256 = "e8597139458b92c50970f80738064b247ea63b22ffb42ad209bac3d75de03cf5"
+game_build = "24670294"
+tags = ["gameplay"]
+
+[[mod]]
+id = "admins-1939-v1"
+name = "Admins 1939"
+version = "1.0.0"
+author = "andi3714"
+description = "This Mod make it possible to build Administrative Buildings in all Timelines."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/admins-1939-v1-1.0.0.rusemod"
+size = 886
+sha256 = "1dfbde13b74574853233cfe83875bfea011788c77707308d56b9b024b57cb7f5"
+game_build = "24670294"
+tags = ["gameplay"]
+
+[[mod]]
+id = "admins-1942-v1"
+name = "Admins 1942"
+version = "1.0.0"
+author = "andi3714"
+description = "This Mod make it possible to build Administrative Buildings in all Timelines except 1939."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/admins-1942-v1-1.0.0.rusemod"
+size = 909
+sha256 = "2b45f4a4482f90aa2fff9b690001546743fb8b96abc10cc1bc3aa6c1ee7c9611"
+game_build = "24670294"
+tags = ["gameplay"]
+
+[[mod]]
+id = "admins-removed-v1"
+name = "Admins Removed"
+version = "1.0.0"
+author = "andi3714"
+description = "This Mod removes the ability to build Administrative Buildings in any Timeline or Mode."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/admins-removed-v1-1.0.0.rusemod"
+size = 907
+sha256 = "21afb4d361f9cd6deb019ea795d2f7e0a8698b89dda3b08e2440265038089fc9"
+game_build = "24670294"
+tags = ["gameplay"]
+
+[[mod]]
+id = "air-nerf-v1"
+name = "Air Nerf"
+version = "1.0.0"
+author = "SuperCrumpets"
+description = "Fighter Strafing: All except Shinden(ammoid1113): Shots to kill unarmoured 2->3 / 3->4 coverbonus Damage 50*6->30*6"
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/air-nerf-v1-1.0.0.rusemod"
+size = 978
+sha256 = "e926de0d1c6e02463e0b8a24ea05754b43aff9b5d1bef0e47dd56f824f331eca"
+game_build = "24670294"
+tags = ["gameplay"]
+
+[[mod]]
+id = "airfield-capacity"
+name = "Airfield Capacity"
+version = "1.0.0"
+author = "R.U.S.E. community"
+description = "Raises the number of planes that can fit in an Airfield from 8 to 128."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/airfield-capacity-1.0.0.rusemod"
+size = 777
+sha256 = "c34621fa3aa55553968888eb6dfeb6d4c116c657af4c681780667e158ddea6c0"
+game_build = "24670294"
+tags = ["gameplay"]
+
+[[mod]]
+id = "all-around-awareness"
+name = "All-Around Awareness"
+version = "1.0.0"
+author = "R.U.S.E. community"
+description = "Adds InitialFlagSet bit 71 ('vision_circulaire' -- 360-degree vision, no facing restriction) to every ground unit (150 newly patched, 54 already had it vanilla -- mostly artillery and turretless casemate vehicles). Real vanilla precedent for this flag (unlike the dead Total Blackout experiment) -- 54/204 ground units plus all aircraft already use it. No more sneaking around a unit's blind side."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/all-around-awareness-1.0.0.rusemod"
+size = 3170
+sha256 = "ea817d2695dd1c549710637b75ed6b949d34b98335bbd0f1af56e877532e5212"
+game_build = "24670294"
+tags = ["gameplay"]
+
+[[mod]]
+id = "argonne-forrest-mod"
+name = "Argonne Forrest Mod"
+version = "1.1.0"
+author = "R.U.S.E. community"
+description = "Forests now behave like towns: every ground unit (infantry, recon, tanks, towed guns) is blocked from entering forest terrain via InitialFlagSet, AND every forest cell on all 31 real maps carries the same 'blocked/clear-path' terrain bit water and cliffs already use -- CONFIRMED in-game to block both movement AND line-of-sight/gunfire through the forest. Combines Impassable_Forests_V1 +..."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/argonne-forrest-mod-1.1.0.rusemod"
+size = 507411
+sha256 = "014f9b484dcdf1bb7c2e737b7768b5e5d585b47d20dedd664a4483b733655e4e"
+game_build = "24670294"
+tags = ["gameplay"]
+
+[[mod]]
+id = "armed-factories"
+name = "Armed Factories"
+version = "1.0.0"
+author = "R.U.S.E. community"
+description = "Gives all 49 real production buildings a self-defense turret via UniteDefense (the same always-on mechanism 2 vanilla decoy buildings already use), armed with actual light-infantry rifle ammo borrowed from Unit_Soldat_US_Leger rather than a proper MG-nest's own ammo -- weaker and shorter-ranged, 'factory workers grabbing rifles' rather than a real emplacement. New private turret unit..."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/armed-factories-1.0.0.rusemod"
+size = 2900
+sha256 = "916016a258e1db2794d40653758eed3e7acbde29a0a686e88036efc1f8c3c096"
+game_build = "24670294"
+tags = ["gameplay"]
+
+[[mod]]
+id = "balance-overhaul-mod-v1"
+name = "Balance Overhaul Mod"
+version = "1.0.0"
+author = "Tipsy3000"
+description = "Finally after over a month of work the Ruse Overhaul Balance mod is finally completed! So you might be wondering what on earth does this mod do? Well its simple really, it is an attempt to rebalance the entire game of RUSE. So you might be wondering what does this mod change? Quite a bit actually but I will primarily be covering the major changes, for all changes refer to the changelog in the ZIP..."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/balance-overhaul-mod-v1-1.0.0.rusemod"
+size = 23504
+sha256 = "bbae50d4c750f34e6dc9f3547f41539b91ebee04165423356d6ceb3a92a6dbdf"
+game_build = "24670294"
+tags = ["gameplay"]
+
+[[mod]]
+id = "balanced-realism-mod-v1"
+name = "Balanced Realism Mod"
+version = "1.0.0"
+author = "LosPenetratus"
+description = "To give the game more of a realistic view, i decided to adjust the ingame prices of the units to the production cost of the real units and also adjustet the production time. But! I tried to balance everything out, so that you can even defeat the dominant factions with minor ones (like italy or france). The \"Renzan\" Bomber resembles now the Ki-21 Bomber (available at 1939) and the Stug 3 is now an..."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/balanced-realism-mod-v1-1.0.0.rusemod"
+size = 279018
+sha256 = "2fe2f15dbe1c9a61b0a9a7455d1c5ab0a7fe4801b592f3222df085ed06689295"
+game_build = "24670294"
+tags = ["gameplay"]
+
+[[mod]]
+id = "bigger-bomb-loads"
+name = "Bigger Bomb Loads"
+version = "1.0.0"
+author = "R.U.S.E. community"
+description = "Multiplies bomber payload (2.0x): more bombs dropped per pass and a wider dispersion pattern, for dedicated bomber/dive-bomber aircraft only."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/bigger-bomb-loads-1.0.0.rusemod"
+size = 1042
+sha256 = "0c6b9abe0b01ba01b154bb4dfd0082acfed08597e36643dbd8242c19c1ffb85f"
+game_build = "24670294"
+tags = ["gameplay"]
+
+[[mod]]
+id = "campaign-red-zone-fix"
+name = "Campaign Red Zone Fix"
+version = "1.0.0"
+author = "R.U.S.E. community"
+description = "Removes the campaign's red-zone Ruse/order blockers (31 calls across 19 mission files) by replacing each DescriptorBloqueZoneForRuseAndOrder call with a no-op DescriptorWaitDuree(Duree=1) -- the same fix ProLution's community 'Campaign 2.0' mod shipped. Built via the proven decompile->edit->recompile golden path (script_logic.py, real Python 2.5.1 recompile), NOT raw bytecode patching."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/campaign-red-zone-fix-1.0.0.rusemod"
+size = 795715
+sha256 = "1693c084436a40a3d127654119a5798edbb70efee85cf5342e9a24cce9eb42b4"
+game_build = "24670294"
+tags = ["operations"]
+
+[[mod]]
+id = "cheat-mod-v2"
+name = "Cheat Mod 2.0"
+version = "2.0.0"
+author = "R.U.S.E. community"
+description = "Every unit AND every building costs $1 to build, every unit's ProductionTime is 0, and the global MinProductionTime floor is lowered to 0.01 seconds so 0-second production actually takes effect instead of being clamped back up to 1 second. Extends the example Cheat Mod (units-only $1 pricing) with building pricing and the confirmed-working instant-production fix."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/cheat-mod-v2-2.0.0.rusemod"
+size = 6038
+sha256 = "29a5e4428ae888638f7cf431d15c361905761ceddb02141e50d105c7d80d2b20"
+game_build = "24670294"
+tags = ["cheat", "cheats"]
+
+[[mod]]
+id = "complete-concealment-coverage-v1"
+name = "Complete Concealment Coverage"
+version = "1.0.3"
+author = "LittleGroove"
+description = "This Mod will cover every map entirely with the concealment flag so small units that could be concealed in forests will be concealed everywhere. This does not affect non-concealable units and they will function normally. Makes AI considerably harder to defeat without knowing where their recon is. IT IS RECOMMENDED TO ALWAYS HAVE THIS MOD CACHED AND AT THE VERY TOP OF THE MODS LIST It can take an..."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/complete-concealment-coverage-v1-1.0.3.rusemod"
+size = 1930
+sha256 = "c81ed803c3eb434d057afb95cc68a3c2588af9b7c0ad85f4948e50b5463e557e"
+game_build = "24670294"
+tags = ["gameplay"]
+
+[[mod]]
+id = "custom-music-ruse-menu-ref-1"
+name = "Custom Music: ruse_menu_ref-1 -> BoomBastic"
+version = "1.0.0"
+author = "R.U.S.E. community"
+description = "Replaces the RUSE music track 'ruse_menu_ref-1' with 'BoomBastic' in full 48 kHz stereo, encoded with the recovered .ess codec (first stereo encoder). Only one custom-music mod per track can be active."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/custom-music-ruse-menu-ref-1-1.0.0.rusemod"
+size = 13585036
+sha256 = "11f9c25b5d3b2fb7f783aa62555229eff3e744f1dfeb98ab2bf021eedeb8e5a9"
+game_build = "24670294"
+tags = ["sound"]
+
+[[mod]]
+id = "dev-toolkit"
+name = "Dev Toolkit"
+version = "0.10.2"
+author = "R.U.S.E. community"
+description = "Developer and casting tools for offline play. Every mode (campaign, operations, Battles): 'DevBluff' tab (play the enemy's RUSE cards) and 'Dev' tab (+500 / -500 money); Ctrl+Shift+Alt+H hides / shows the interface; Ctrl+Shift+Alt+D shows / hides every player's money grouped by team; Scroll Lock freezes the camera, Ctrl+Shift+Alt+U / L unlock / lock camera movement. Battles: AI teammates keep..."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/dev-toolkit-0.10.2.rusemod"
+size = 25072
+sha256 = "2dd1bcca50c3606b841bb8324080d9d83a858e7ab84a10973ef3ea1f4f7302e0"
+game_build = "24670294"
+tags = ["cheat", "cheats"]
+
+[[mod]]
+id = "double-speed-range"
+name = "Double Speed & Range"
+version = "1.0.0"
+author = "R.U.S.E. community"
+description = "Doubles movement speed, attack range (unit reflex range + weapon range), and vision range for every ground unit, aircraft, and infantry squad."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/double-speed-range-1.0.0.rusemod"
+size = 6718
+sha256 = "eea5dc60ade584b8381658e2c50b295b635117624f5a9586efb283a6bc22cf2f"
+game_build = "24670294"
+tags = ["gameplay"]
+
+[[mod]]
+id = "endless-defence-v1"
+name = "Endless Defence"
+version = "1.0.0"
+author = "Prolution"
+description = "Welcome to R.U.S.E.: Endless Defense! Prepare yourself to face endless waves of increasingly more difficult random enemies. Reach 100,000 score or die trying. In order to play RUSE: Endless Defense by Prolution: Launch the last operation in Operations"
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/endless-defence-v1-1.0.0.rusemod"
+size = 74387
+sha256 = "90012b35e194b99f96af792f972738117de4f5d5ed43d95f71faa6b7ee9695d0"
+game_build = "24670294"
+tags = ["operations"]
+
+[[mod]]
+id = "example-cheat-economy-v1"
+name = "Cheat Mod"
+version = "1.2.0"
+author = "ct_center"
+description = "Unit prices are $1 + production times, plus economy boosts: 9999 starting money, 99 income/tick, 99/truck, 4 trucks/convoy, 30s interval, 9999 easy bonus."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/example-cheat-economy-v1-1.2.0.rusemod"
+size = 4894
+sha256 = "7a9c13445ea9ac0c54a27b025e1f3d3ca3d5ba0bab1efd8b2a592e4b24cc673c"
+game_build = "24670294"
+tags = ["cheat", "cheats"]
+
+[[mod]]
+id = "faster-multi-takeoff"
+name = "Faster Multi-Aircraft Takeoff"
+version = "1.0.0"
+author = "R.U.S.E. community"
+description = "Raises airfield capacity from 8 to 24 planes and makes takeoffs and landings instant (no gap between launches or landings)."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/faster-multi-takeoff-1.0.0.rusemod"
+size = 909
+sha256 = "8732f03db31b0e08d519e057ba6af8e664d39c8af928007fef67648f2ad59db4"
+game_build = "24670294"
+tags = ["gameplay"]
+
+[[mod]]
+id = "fixed-fighter-bomber-dodging-v1"
+name = "Fixed Fighter Bomber Dodging"
+version = "1.0.0"
+author = "SuperCrumpets"
+description = "Fighter Bomber Bombs Speed x4 Ammoids 1107, 1116, 1117"
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/fixed-fighter-bomber-dodging-v1-1.0.0.rusemod"
+size = 1010
+sha256 = "f109b1dce64d2c832a94294895b29ae15564cebf7d4111b4f57a3a3fe9fc4e27"
+game_build = "24670294"
+tags = ["gameplay"]
+
+[[mod]]
+id = "fnat-all-the-time-v1"
+name = "FNAT All The Time"
+version = "1.0.0"
+author = "DomesticNukes"
+description = "It increases the pinned threshold to 2000000 which makes every unit in the game to ignore damage and not retreat, I made the change to the units also not listed in the menus like the rudel and the atomic b17, it should make operations intresting as well."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/fnat-all-the-time-v1-1.0.0.rusemod"
+size = 3746
+sha256 = "77c854ccc96bf26c5dd994e3dfadddcb5fe69f13e2ef5ad8e524468f9d2ef9a0"
+game_build = "24670294"
+tags = ["gameplay"]
+
+[[mod]]
+id = "formation-tweaks-v1"
+name = "Formation Tweaks"
+version = "1.0.0"
+author = "SuperCrumpets"
+description = "Larger Formations and more space between units, Tanks move closer together"
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/formation-tweaks-v1-1.0.0.rusemod"
+size = 936
+sha256 = "034731b2462e2d8a7449f6afee8ee02470534c62470a208f4c14891b76a00b46"
+game_build = "24670294"
+tags = ["gameplay"]
+
+[[mod]]
+id = "free-placement-factories"
+name = "Free Placement Factories"
+version = "2.0.0"
+author = "R.U.S.E. community"
+description = "Adds BuildPolicy=2 (the exact value every real bunker/defense structure uses for free placement, confirmed exclusive to that category across all 135 buildings) to all 49 real production buildings, so they can be placed anywhere on the map instead of requiring truck delivery to a road-adjacent depot slab -- CONFIRMED WORKING in-game. TypeBatiment is deliberately left untouched so they keep..."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/free-placement-factories-2.0.0.rusemod"
+size = 2591
+sha256 = "fe05e9c43bb0e604219ced75136b6edfcada2e9d132e14da94a30ad3c0ccbc8f"
+game_build = "24670294"
+tags = ["gameplay"]
+
+[[mod]]
+id = "half-speed-range"
+name = "Half Speed & Range"
+version = "1.0.0"
+author = "R.U.S.E. community"
+description = "Halves movement speed, attack range (unit reflex range + weapon range), and vision range for every ground unit, aircraft, and infantry squad."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/half-speed-range-1.0.0.rusemod"
+size = 6688
+sha256 = "38caea554693db7e63c695c466d380701cf61009171e6009fa1b0f7f6a008602"
+game_build = "24670294"
+tags = ["gameplay"]
+
+[[mod]]
+id = "here-ill-hold-your-hand"
+name = "Here I'll Hold Your Hand"
+version = "1.0.0"
+author = "R.U.S.E. community"
+description = "Adds InitialFlagSet bit 77 ('cannot_attack_en_reflexe' -- the same flag the 7 atomic cannons use, 'This unit never opens fire by reflex') to every weapon-bearing, commandable unit in the game: infantry, aircraft, ground vehicles, and trucks (317 units patched, 7 atomic cannons already had it). No unit auto-engages anymore -- everything waits for an explicit attack order. Deliberately EXCLUDES..."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/here-ill-hold-your-hand-1.0.0.rusemod"
+size = 5518
+sha256 = "7ae350ba2b06936e02f97ceaaa8e70a475c99fbe54e2b0faf8036322e03662ae"
+game_build = "24670294"
+tags = ["gameplay"]
+
+[[mod]]
+id = "high-altitude-planes"
+name = "High Altitude Planes"
+version = "1.0.0"
+author = "R.U.S.E. community"
+description = "Scales every aircraft's flight altitude to 4x the original (cruise altitude, attack/approach altitudes, dive-bomb start/end altitudes, and looping-maneuver altitudes all scale together) so planes fly much higher across the board."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/high-altitude-planes-1.0.0.rusemod"
+size = 2413
+sha256 = "99cf3c82df1c38a8250352cb9ae9000ff9f538e872771f50309d7e8409ad4a5c"
+game_build = "24670294"
+tags = ["gameplay"]
+
+[[mod]]
+id = "hq-economy-mod-v1"
+name = "HQ Economy Mod"
+version = "1.0.0"
+author = "LittleGroove"
+description = "Economy mod that changes how much the HQ, Admin, and Supply Depots give you."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/hq-economy-mod-v1-1.0.0.rusemod"
+size = 903
+sha256 = "d29a59df6bf2284c8bdae3a8b451601908a3e3751e26ab522b0f2383358abcdd"
+game_build = "24670294"
+tags = ["gameplay"]
+
+[[mod]]
+id = "indirect-fire-for-everyone"
+name = "Indirect Fire For Everyone"
+version = "1.0.0"
+author = "R.U.S.E. community"
+description = "Adds InitialFlagSet bit 1 (working hypothesis: 'indirect fire', based on its vanilla footprint matching exactly the 54 artillery/gun pieces) to every unit and building in the game (410 newly patched, 54 already had it) -- infantry, aircraft, ground vehicles, trucks, buildings, everything."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/indirect-fire-for-everyone-1.0.0.rusemod"
+size = 5893
+sha256 = "21dded87b24959ac7b91a503510504aa48b373b44bf3548a0ea2dbb1d683f72c"
+game_build = "24670294"
+tags = ["gameplay"]
+
+[[mod]]
+id = "infinite-fanaticism"
+name = "Infinite Fanaticism"
+version = "1.0.0"
+author = "R.U.S.E. community"
+description = "Sets every unit's Pinned threshold to one point above its own HP, so it would have to take more damage than it can survive to ever be suppressed -- units fight until destroyed instead of breaking under fire."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/infinite-fanaticism-1.0.0.rusemod"
+size = 3814
+sha256 = "d96ce64d70a14851c6664f9b17b91b74147a9941322a6fd37d9a7d5ecdd9e7c1"
+game_build = "24670294"
+tags = ["gameplay"]
+
+[[mod]]
+id = "infinite-supply-depot-v1"
+name = "Infinite Supply Depot"
+version = "1.0.0"
+author = "Football1995, and RossGosling"
+description = "Supply Depots now contain an unfathomably high amount of resources With this increase, your Supply Trucks no longer come out 3 at a time, but 1, maintaining the same income per convoy, but being more vulnerable (and necessary for the workaround)"
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/infinite-supply-depot-v1-1.0.0.rusemod"
+size = 1128
+sha256 = "06f0efd09d6bdde1e75194291d2b0260cf160452d09c8e86f7c4b9c137170999"
+game_build = "24670294"
+tags = ["cheat", "cheats"]
+
+[[mod]]
+id = "kill-ruse-v1"
+name = "KILL RUSE"
+version = "1.0.0"
+author = "Prolution"
+description = "Kill Ruse activated for multiplayer. Automatically destroy all enemy units and buildings in a sector. Causes the opponent to surrender if it hits their last HQ. How to make it fun? Hide and Seek: To set it up: create a 20-minute match where players can't use ruses until 5 minutes in. One player is the \"killer\" and can intermittently use the kill ruse but is not able to construct buildings or..."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/kill-ruse-v1-1.0.0.rusemod"
+size = 2361
+sha256 = "aa688e38af32a09a213ef4f332f7014c15963f5a20ce692592131f56e3a81637"
+game_build = "24670294"
+tags = ["cheat", "cheats"]
+
+[[mod]]
+id = "low-altitude-planes"
+name = "Low Altitude Planes"
+version = "1.0.0"
+author = "R.U.S.E. community"
+description = "Scales every aircraft's flight altitude to 0.25x the original (cruise altitude, attack/approach altitudes, dive-bomb start/end altitudes, and looping-maneuver altitudes all scale together) so planes fly much lower across the board."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/low-altitude-planes-1.0.0.rusemod"
+size = 2387
+sha256 = "2b319dd52bfd18068af080e96e3ecc8bb360832ae95d270d0b548d73bf1112da"
+game_build = "24670294"
+tags = ["gameplay"]
+
+[[mod]]
+id = "meme-descriptions"
+name = "Meme Descriptions"
+version = "1.0.0"
+author = "R.U.S.E. community"
+description = "The complete dank-meme Russopedia rewrite, all in one mod: every tank, anti-tank gun, artillery piece, aircraft, infantry unit, recon vehicle, anti-aircraft gun, and building (including every bunker) gets a sarcastic nickname grounded in real WW2 history, plus a rewritten flavor-text write-up wherever one exists. Combines Dank_Meme_Tanks_V1, Dank_Meme_Everything_Else_V1, and..."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/meme-descriptions-1.0.0.rusemod"
+size = 19960
+sha256 = "cf634958be23f346f6e22d9ef8937f16dbb0f32096e491495bcea9e85473dbaf"
+game_build = "24670294"
+tags = ["sound"]
+
+[[mod]]
+id = "meme-intro"
+name = "Meme Intro"
+version = "1.1.0"
+author = "R.U.S.E. community"
+description = "Replaces the Eugen Systems studio splash video (plays at game startup) with a custom video (vlipsy-inglourious-bastards-they-need-to-be-destroyed-i2m0dFpt.mp4), re-encoded to match the original's format (VP9/Vorbis WebM, 1280x720 @ 25fps). Audio boosted +14 dB."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/meme-intro-1.1.0.rusemod"
+size = 1979402
+sha256 = "df871b125bcc56fe5406756bf4a133ad48ca56902a9319d4fa6ca2a77a343a45"
+game_build = "24670294"
+tags = ["sound"]
+
+[[mod]]
+id = "montecassinomp"
+name = "Monte Cassino Demo MP"
+version = "1.0.0"
+author = "SuperCrumpets"
+description = "Tutorial Monte Cassino Multiplayer version 2/3 teams"
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/montecassinomp-1.0.0.rusemod"
+size = 26126
+sha256 = "d8dd9355676799cf422513352b937300210e22f7a2766fc88b166370d89bb467"
+game_build = "24670294"
+tags = ["operations"]
+
+[[mod]]
+id = "navy-mod"
+name = "Navy Mod"
+version = "2.3.2"
+author = "R.U.S.E. community"
+description = "Adds a Destroyer, Heavy Cruiser and Battleship to every nation in skirmish. Research and build them from the Experimental tab of the prototype base. Each nation gets its own historical ship names and descriptions. The ships drive on land. They are heavily armored, long-range, late-game units. Do not combine with other ship mods."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/navy-mod-2.3.2.rusemod"
+size = 269567
+sha256 = "d10541b8b0bae0f0341bc4f2d91688a2516bcea192501abc1723d2f46311e8c6"
+game_build = "24670294"
+tags = ["operations"]
+
+[[mod]]
+id = "new-ai-doctrines"
+name = "New AI Doctrines"
+version = "1.0.0"
+author = "R.U.S.E. community"
+description = "AI_Doctrines_V1 (Howitzer->Infantry Only, Turtle->Tanks Only) merged with a baseline infantry-production fix for every other profile (Regular, difficulties, Air Force, Prototype, Blitzkrieg, Random), so the AI stops spamming tanks with no infantry outside the two pure doctrine slots."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/new-ai-doctrines-1.0.0.rusemod"
+size = 1886
+sha256 = "7aa807b999061d213dd74aa36e43891ecb965c468f732d45acaeba15235466b5"
+game_build = "24670294"
+tags = ["ai"]
+
+[[mod]]
+id = "no-air-or-aa-v1"
+name = "No Air or AA"
+version = "1.0.0"
+author = "andi3714"
+description = "Disables all Air + AA Units which are available in the Game."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/no-air-or-aa-v1-1.0.0.rusemod"
+size = 1992
+sha256 = "8ad43e9d4ebb547900fdd5ef121893cc41bed9a1cc4b69115c51299c151300ea"
+game_build = "24670294"
+tags = ["gameplay"]
+
+[[mod]]
+id = "no-arty-v1"
+name = "No Arty"
+version = "1.0.0"
+author = "andi3714"
+description = "Disables all Artillery Units in the Game."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/no-arty-v1-1.0.0.rusemod"
+size = 1653
+sha256 = "a0ba95a55d9fd844f1f255bc99aa7a01f3db4e0c487b30759d8d6da6913da717"
+game_build = "24670294"
+tags = ["gameplay"]
+
+[[mod]]
+id = "no-bunkers"
+name = "No Bunkers"
+version = "1.0.0"
+author = "R.U.S.E. community"
+description = "Removes the option to construct any nation's fixed-defense building (MG nests, AT/AA bunkers, blockhaus, pillboxes, artillery positions/shelters, outposts) by hiding them from the build menu and pricing them unaffordably. Existing bunkers already on a map are not deleted or affected -- this only blocks building new ones."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/no-bunkers-1.0.0.rusemod"
+size = 1330
+sha256 = "be084ddd085569c4bfe871fdaeb80b13959fa4867539125abd989aea2882606c"
+game_build = "24670294"
+tags = ["gameplay"]
+
+[[mod]]
+id = "no-fog-of-war"
+name = "No Fog of War"
+version = "1.1.0"
+author = "R.U.S.E. community"
+description = "Adds InitialFlagSet bit 72 ('vision_no_obstacle' -- the engine skips the line-of-sight obstacle query when this is set) to every unit and building in the game (aircraft already had it vanilla). V1.1: ALSO sets every unit's DetectionBase (ground vision range) and PorteeVisionVolant (vision vs. aircraft) to 3000000 -- comfortably larger than any map's bounding box, so vision reaches across the..."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/no-fog-of-war-1.1.0.rusemod"
+size = 7779
+sha256 = "d6b8dc3c2a3b6d0e74da795c184b6b7b34e7b19840a1d73ce5659bc6309fe801"
+game_build = "24670294"
+tags = ["cheat", "cheats"]
+
+[[mod]]
+id = "no-regeneration"
+name = "No Regeneration"
+version = "1.0.0"
+author = "R.U.S.E. community"
+description = "Disables out-of-combat health regeneration for every unit and building (RegenerationPinnedHorsCombat 10.0 -> 0.0) -- damage is permanent, units fight at whatever condition they're in until destroyed."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/no-regeneration-1.0.0.rusemod"
+size = 919
+sha256 = "09407c76ae1fa38b7deaa7ba7b0d427ccaf6cf70c4823a8141042bf7be572060"
+game_build = "24670294"
+tags = ["gameplay"]
+
+[[mod]]
+id = "nuclear-artillery-endgame"
+name = "Nuclear Artillery Endgame"
+version = "3.0.0"
+author = "R.U.S.E. community"
+description = "25 kill streak"
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/nuclear-artillery-endgame-3.0.0.rusemod"
+size = 2066
+sha256 = "5916b5d514e6d954aa47e7491d5da4e4eb4c6c4d578bc8eab0dd4d13a59fe3b8"
+game_build = "24670294"
+tags = ["cheat", "cheats"]
+
+[[mod]]
+id = "one-hp-units"
+name = "1 HP Units"
+version = "1.0.0"
+author = "R.U.S.E. community"
+description = "Sets every ground unit and aircraft's death threshold to 1 and pinned threshold to 0, so a single hit destroys anything."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/one-hp-units-1.0.0.rusemod"
+size = 836
+sha256 = "585897e2995f1800cdcf32c2738095ac2c51db832d000a162b5a83cc01ad5ab7"
+game_build = "24670294"
+tags = ["cheat", "cheats"]
+
+[[mod]]
+id = "only-air-v1"
+name = "Only Air"
+version = "1.0.0"
+author = "ct_center"
+description = "ever wanted to play battles with no air? no artillery? no tanks or no infantry? than this is the mod for you! simple limitations to allow more gameplay and to not have the ai spam those damn fighter bombers!"
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/only-air-v1-1.0.0.rusemod"
+size = 1553
+sha256 = "36dc08746f83dcd223fdf5d64824b69d014d5fecf79547dbbcbcb641904b027c"
+game_build = "24670294"
+tags = ["gameplay"]
+
+[[mod]]
+id = "open-world-all-maps-free-placement"
+name = "Open World: All Maps + Free Placement (OFFLINE TEST)"
+version = "0.2.0"
+author = "R.U.S.E. community"
+description = "OFFLINE TEST ONLY - not verified free of multiplayer desync. Two-for-one: (1) every building (factories, airfields, HQs, administration buildings, truck factories, decoys) can be placed anywhere like a bunker (BuildPolicy=2; supply depots unchanged), and (2) all 32 real maps are fully open: the whole map square, towns, forests, rivers, lakes, sea and out-of-bounds ground are walkable, commandable..."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/open-world-all-maps-free-placement-0.2.0.rusemod"
+size = 28675083
+sha256 = "1da5135bac9c7a762f6e8823efb981cece17a68c745490f6e5a25b7f1bab0464"
+game_build = "24670294"
+tags = ["cheat", "cheats"]
+
+[[mod]]
+id = "operation-fortress-europa-v1"
+name = "Operation Fortress Europa"
+version = "1.0.0"
+author = "Prolution"
+description = "Introducing a new custom operation: Fortress Europa!!! You invaded and defeated the Axis during Operation Overlord. Now it is time to switch sides and play defense. Take over the defenses of the Atlantic wall and drive the allies back into the sea!!! Two options to play! a). First DDAY mission in Campaign - this has no time limit (hardest mode) b). Last operation in Operations - this has a 60..."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/operation-fortress-europa-v1-1.0.0.rusemod"
+size = 95633
+sha256 = "9a3228fa56c2d42e39d0d134d55a2cdbcac89943cf4deed45ec20a097e8cf178"
+game_build = "24670294"
+tags = ["operations"]
+
+[[mod]]
+id = "operation-overlord-v6"
+name = "Operation Overlord"
+version = "6.0.0"
+author = "Prolution"
+description = "This version increases the mission time limit, adds a few extra buildable units and improves the scenario. known bug number 1: if you save midgame and then turn off the mod. If you try to open operations the game crashes. To fix this crash, you need to go into your locals folder and get rid of the .rusesav file(s) that was created when you saved your modded game. C:\\Program Files..."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/operation-overlord-v6-6.0.0.rusemod"
+size = 99625
+sha256 = "0d17b0c8a15b986b0c362677dff13f66f68cc7c62289169a794e15d1653bbf2c"
+game_build = "24670294"
+tags = ["operations"]
+
+[[mod]]
+id = "operations-solo-test"
+name = "Operations Solo Test"
+version = "1.0.0"
+author = "R.U.S.E. community"
+description = "Drops TChallengeMapInfo.NbPlayers from 2 to 1 on CH32 (Tobrouk COOP) and CH34 (Coldwar Multi / Operation Zapad), the two operations used to test the playable-battleship mods this session. Both currently force a private-match-or-matchmaking lobby screen before launch, since they expect 2 real human players. EXPERIMENTAL -- not confirmed whether the game just auto-fills the second slot with AI..."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/operations-solo-test-1.0.0.rusemod"
+size = 1336
+sha256 = "f7cb89784a710f55ba5a32fec7434589123be538e39920342d4b2ebff2211fce"
+game_build = "24670294"
+tags = ["cheat", "cheats"]
+
+[[mod]]
+id = "passable-forests"
+name = "Passable Forests"
+version = "1.0.0"
+author = "R.U.S.E. community"
+description = "Lets every tank, tank destroyer, AA vehicle, and mobile artillery/assault gun enter forest terrain the way recon vehicles already can, by removing the InitialFlagSet flags (11, 21, 55) that block forest entry. Confirmed in-game on the M4 Sherman before rolling out to the full roster."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/passable-forests-1.0.0.rusemod"
+size = 2894
+sha256 = "83c051bb1105a8ad8438ea0477ac6d6420db22aefec1f69d68ce7d94f6dcba52"
+game_build = "24670294"
+tags = ["gameplay"]
+
+[[mod]]
+id = "peashooter-snipers"
+name = "Peashooter Snipers"
+version = "1.0.0"
+author = "R.U.S.E. community"
+description = "Every weapon in the game gets insane range (10000000, far beyond the vanilla max of 2,600,000) but every hit only deals 2 damage. Patches TAmmunition.PorteeMaximale (139 ammo) and TAmmunition.Puissance (138 ammo, 1 skipped -- no Puissance field) -- covers every unit's every weapon since ammo is shared across units rather than defined per-unit."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/peashooter-snipers-1.0.0.rusemod"
+size = 1719
+sha256 = "753e728484094792620138e740da89f9c639304f0239b4b1e100e225c65b65d2"
+game_build = "24670294"
+tags = ["cheat", "cheats"]
+
+[[mod]]
+id = "rcrbm-2-v1"
+name = "RCRBM 2"
+version = "1.0.1"
+author = "CHANDAWG2007"
+description = "R.U.S.E CHANDAWG2007'S REALISTIC BALANCE MOD 2 (RCRBM 2) Find out for yourself :)"
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/rcrbm-2-v1-1.0.1.rusemod"
+size = 22371
+sha256 = "d518880cb4c66952bbf4d63de34a0241249435f966f5bf4dd90689434f066d4d"
+game_build = "24670294"
+tags = ["gameplay"]
+
+[[mod]]
+id = "realistic-ground-war-v1"
+name = "Realistic Ground War"
+version = "1.35.0"
+author = "lclmopar426"
+description = "This mod aims to rebalance the ground war mechanics of the game, changing nearly all of the stats for the ground units, buildings, and defenses. In general, Real world statistics for unit capabilities are taken into consideration when increasing/decreasing values in the game. There are a handful of exceptions here, for the sake of making certain factions irrelevant (cough, Italy). However, some..."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/realistic-ground-war-v1-1.35.0.rusemod"
+size = 16375
+sha256 = "a95a5022756e28708d0a6bcdcf4528a1c84d90436457a9827f016bdb61610a2b"
+game_build = "24670294"
+tags = ["gameplay"]
+
+[[mod]]
+id = "rscbm2-v1"
+name = "RSCBM2"
+version = "1.0.1"
+author = "SuperCrumpets"
+description = "Balance changes: Ruses: Starting Ruse Cards 2->3 Blitz 120s->90s Terror 120s -> 180s morale mult 0.75->0.65 Spy 60s->120s Retreat speed mult 0.5->0.75 AntiTank Base enabled in 1939 Economy: Supply Depot 18/30s->24/40s Unit Stats: Recon: Detection 400m->475m all paras all light/medium infantry Stuart Panzer3 Cruisera13 H39 Carro Veloce&M11 T26 Ha-go Health: All Fragile Bunkers 250hp->350hp..."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/rscbm2-v1-1.0.1.rusemod"
+size = 34946
+sha256 = "509846ddf984a6c33604323f1b2f60709de941fadc9d25a39afe4313d2335ec9"
+game_build = "24670294"
+tags = ["gameplay"]
+
+[[mod]]
+id = "ruse-pinnacle-map-pack-v1"
+name = "Pinnacle Map Pack"
+version = "1.0.0"
+author = "Prolution & Minibug"
+description = "This version is a complete overhaul of the RUSE Campaign Map Pack and contains the following maps: Colditz Castle, North Africa, The Battle of Monte Cassino, Italy, France (A New D-Day Map), A Bridge Too Far, Romeo & The Red Devils (Market Garden/Holland Campaign Map), The Siege of Bastogne (Up to 8 Players), Best Foes (A New Handshake Over the Elbe Map), West Meets East (A New Handshake Over the..."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/ruse-pinnacle-map-pack-v1-1.0.0.rusemod"
+size = 298508
+sha256 = "dc7bab92f41e800b107a25d133714072bd66d3317f3e348d3d2d8839b7008121"
+game_build = "24670294"
+tags = ["operations"]
+
+[[mod]]
+id = "sand-box-v1"
+name = "Sand Box"
+version = "1.0.0"
+author = "Prolution"
+description = "Sand Box V1 is here. One sand box, 10K cash and every unit. To play Sandbox by Prolution in RUSE: Last operation in Operations, you must force close the game to quit"
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/sand-box-v1-1.0.0.rusemod"
+size = 66853
+sha256 = "8b2ffebf7f33f80b9eb5d23c6a62c076bb6b2f96d99b6884522e207fed60641a"
+game_build = "24670294"
+tags = ["operations"]
+
+[[mod]]
+id = "separate-research-units-v1"
+name = "Separate Research Units"
+version = "1.0.0"
+author = "Football1995, and RossGosling"
+description = "Every upgrade is now a separate menu entry, allowing for prior versions to still be purchased Super Pershing is the only exception, replacing the Pershing as standard"
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/separate-research-units-v1-1.0.0.rusemod"
+size = 1598
+sha256 = "8227cf813a9b60dcfcc0ce684cf1cb1ac918fe78e1f4f52aca5a4d4c555e0e9b"
+game_build = "24670294"
+tags = ["gameplay"]
+
+[[mod]]
+id = "static-battleship-all-operations-autofire"
+name = "Static Commandable Battleship - All Operations (AutoFire)"
+version = "1.0.0"
+author = "R.U.S.E. community"
+description = "Settled outcome of a long investigation into whether Unit_Battleship can be made playable: it CAN boot, render, select, show real stats/weapons, and accept orders -- but it can never visually track movement (compiled mesh has no chassis bone, confirmed 3 independent ways). Rolls the same static 'coastal defense gun' design out to EVERY vanilla operation in the game (not just Tobrouk/Zapad) -- one..."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/static-battleship-all-operations-autofire-1.0.0.rusemod"
+size = 240729
+sha256 = "e3da2029839cb9c932220a559fc83c1c4000c16d01acd1a39b6f7f3b6e2d93d6"
+game_build = "24670294"
+tags = ["operations"]
+
+[[mod]]
+id = "static-battleship-all-operations-manualfire"
+name = "Static Commandable Battleship - All Operations (ManualFire)"
+version = "1.0.0"
+author = "R.U.S.E. community"
+description = "Settled outcome of a long investigation into whether Unit_Battleship can be made playable: it CAN boot, render, select, show real stats/weapons, and accept orders -- but it can never visually track movement (compiled mesh has no chassis bone, confirmed 3 independent ways). Rolls the same static 'coastal defense gun' design out to EVERY vanilla operation in the game (not just Tobrouk/Zapad) -- one..."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/static-battleship-all-operations-manualfire-1.0.0.rusemod"
+size = 240819
+sha256 = "54eec3f362b8e90a386875ec2c8967c10cf8468096c21f580ffc376c9d981a4b"
+game_build = "24670294"
+tags = ["operations"]
+
+[[mod]]
+id = "steel-ruse-game-v1"
+name = "Steel Ruse Game"
+version = "1.0.0"
+author = "Prolution"
+description = "No admins or depots. $800 to start."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/steel-ruse-game-v1-1.0.0.rusemod"
+size = 1195
+sha256 = "5e556e21389b5d036c1bf027d3b609e33f9c029584f7bb36983a1864cbf38cbe"
+game_build = "24670294"
+tags = ["operations"]
+
+[[mod]]
+id = "super-aggressive-ai"
+name = "Super Aggressive AI"
+version = "1.0.0"
+author = "R.U.S.E. community"
+description = "Makes every AI personality/difficulty profile maximally aggressive: attacks from the very start, launches readily regardless of relative strength, no cap on simultaneous offensive missions, and no units held back in static defense. Applies globally (skirmish, multiplayer, and campaign AI alike) -- there's no data-level way to scope this to campaign/tutorial missions only."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/super-aggressive-ai-1.0.0.rusemod"
+size = 1443
+sha256 = "302394df5c33d8d98bd37f8b3feea619ac548fbc8bf864dcc6513ecc4b26dad4"
+game_build = "24670294"
+tags = ["ai"]
+
+[[mod]]
+id = "super-rate-of-fire"
+name = "Super Rate Of Fire"
+version = "1.0.0"
+author = "R.U.S.E. community"
+description = "Every weapon reloads at the engine's real hard floor of 0.1s between shots (confirmed via live testing -- vanilla never goes below 0.2s and no data-driven tunable controls this floor, so it can't go lower) and fires 5x as many shots per burst (66 ammo patched, 73 skipped -- no burst field). Patches TAmmunition.TempsEntreDeuxTirs (139 ammo) and TAmmunition.NbTirParSalves -- covers every unit's..."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/super-rate-of-fire-1.0.0.rusemod"
+size = 2122
+sha256 = "a2decd3ebf3fa969a8066336fe1aa0a7de26ce5a5b40c984d7d23ee6b7ceb2db"
+game_build = "24670294"
+tags = ["cheat", "cheats"]
+
+[[mod]]
+id = "super-speed-everything"
+name = "Super Speed Everything"
+version = "1.0.0"
+author = "R.U.S.E. community"
+description = "Every ground unit, infantry squad, truck and plane moves at a flat 100000 -- well beyond the fastest real vanilla value in any of the four classes (ground VitesseCombat tops out at 57,200) -- across VitesseLineaire/VitesseCombat/VitesseLineaireAuSol/MaxAcceleration/MaxDeceleration wherever each class actually has that field. Same idea as Super Stuart's speed buff, applied to the whole roster."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/super-speed-everything-1.0.0.rusemod"
+size = 1219
+sha256 = "ebd4857f49194d6c4d16b508ec85b74ae4972984e7ee8b3f9eca6624d12113e8"
+game_build = "24670294"
+tags = ["cheat", "cheats"]
+
+[[mod]]
+id = "suppressing-fire-v1"
+name = "Suppressing Fire"
+version = "1.0.0"
+author = "SuperCrumpets"
+description = "All Rifles and Mgs have an Area of effect"
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/suppressing-fire-v1-1.0.0.rusemod"
+size = 1109
+sha256 = "84525f5602cea2b7f478aa27896710401072702133d8e42906b7b27d178eccaf"
+game_build = "24670294"
+tags = ["gameplay"]
+
+[[mod]]
+id = "tanks-only"
+name = "Tanks Only"
+version = "1.0.0"
+author = "R.U.S.E. community"
+description = "Every nation can only build tanks: 41 real tank units stay buildable, while every infantry unit, aircraft, and non-tank ground unit (recon, anti-tank, AA, artillery) is hidden from the build menu and priced unaffordably. Tanks that technically carry artillery ammunition (indirect-fire weapons, same as the dedicated Artillery category) are excluded too -- the Semovente and Breda Dovunque..."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/tanks-only-1.0.0.rusemod"
+size = 3719
+sha256 = "2b35dc63a495eb459efef87a7a278ff412bde503f96904c5ccead05bf26dcb95"
+game_build = "24670294"
+tags = ["gameplay"]
+
+[[mod]]
+id = "zombie-mode-v3"
+name = "Zombie Mode"
+version = "3.0.0"
+author = "Prolution"
+description = "Zombie mode has been rebuilt from scratch. This includes major balance and game play improvements. 2 new zombies, bringing the total to 6. Zombies are also now stronger. See the Change log and readme for more information on changes and how to play (its even easier)! In order to play RUSE ZOMBIE MODE by Prolution: --- Many options to play! a). Play as or against Germany. Germany AI profile should..."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/zombie-mode-v3-3.0.0.rusemod"
+size = 10023
+sha256 = "7e94aca11cae30e893e713c527b82f1e8b5a53f26919d78056bffc26df180a9e"
+game_build = "24670294"
+tags = ["operations"]
