@@ -2,7 +2,7 @@
 
 ## These are our mods
 
-Every mod below works with **RUSE Launcher**: each one builds with no errors on today's R.U.S.E. (Steam build 24670294). 75 mods, by the R.U.S.E. community.
+Every mod below works with **RUSE Launcher**: each one builds with no errors on today's R.U.S.E. (Steam build 24670294). 74 mods, by the R.U.S.E. community.
 
 **To install:** open RUSE Launcher, go to **Supported mods**, tick the ones you want and press Install. The Launcher checks every file before it adds it. Cheats and test tools are in their own group and are never installed unless you pick them.
 
@@ -109,7 +109,6 @@ Never installed unless you pick them. Offline play only.
 | 1 HP Units | R.U.S.E. community | Sets every ground unit and aircraft's death threshold to 1 and pinned threshold to 0, so a single hit destroys anything. | [Download](https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/one-hp-units-1.0.0.rusemod) (1 KB) |
 | Cheat Mod | ct_center | Unit prices are $1 + production times, plus economy boosts: 9999 starting money, 99 income/tick, 99/truck, 4 trucks/convoy, 30s interval, 9999 easy bonus. | [Download](https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/example-cheat-economy-v1-1.2.0.rusemod) (5 KB) |
 | Cheat Mod 2.0 | R.U.S.E. community | Every unit AND every building costs $1 to build, every unit's ProductionTime is 0, and the global MinProductionTime floor is lowered to 0.01 seconds so... | [Download](https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/cheat-mod-v2-2.0.0.rusemod) (6 KB) |
-| Dev Toolkit | R.U.S.E. community | Developer and casting tools for offline play. Every mode (campaign, operations, Battles): 'DevBluff' tab (play the enemy's RUSE cards) and 'Dev' tab (+500 /... | [Download](https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/dev-toolkit-0.10.2.rusemod) (24 KB) |
 | Infinite Supply Depot | Football1995, and RossGosling | Supply Depots now contain an unfathomably high amount of resources With this increase, your Supply Trucks no longer come out 3 at a time, but 1, maintaining... | [Download](https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/infinite-supply-depot-v1-1.0.0.rusemod) (1 KB) |
 | KILL RUSE | Prolution | Kill Ruse activated for multiplayer. Automatically destroy all enemy units and buildings in a sector. Causes the opponent to surrender if it hits their last... | [Download](https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/kill-ruse-v1-1.0.0.rusemod) (2 KB) |
 | No Fog of War | R.U.S.E. community | Adds InitialFlagSet bit 72 ('vision_no_obstacle' -- the engine skips the line-of-sight obstacle query when this is set) to every unit and building in the game... | [Download](https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/no-fog-of-war-1.1.0.rusemod) (8 KB) |

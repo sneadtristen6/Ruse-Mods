@@ -277,18 +277,6 @@ game_build = "24670294"
 tags = ["sound"]
 
 [[mod]]
-id = "dev-toolkit"
-name = "Dev Toolkit"
-version = "0.10.2"
-author = "R.U.S.E. community"
-description = "Developer and casting tools for offline play. Every mode (campaign, operations, Battles): 'DevBluff' tab (play the enemy's RUSE cards) and 'Dev' tab (+500 / -500 money); Ctrl+Shift+Alt+H hides / shows the interface; Ctrl+Shift+Alt+D shows / hides every player's money grouped by team; Scroll Lock freezes the camera, Ctrl+Shift+Alt+U / L unlock / lock camera movement. Battles: AI teammates keep..."
-download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/dev-toolkit-0.10.2.rusemod"
-size = 25072
-sha256 = "2dd1bcca50c3606b841bb8324080d9d83a858e7ab84a10973ef3ea1f4f7302e0"
-game_build = "24670294"
-tags = ["cheat", "cheats"]
-
-[[mod]]
 id = "double-speed-range"
 name = "Double Speed & Range"
 version = "1.0.0"
