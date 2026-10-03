@@ -709,6 +709,18 @@ game_build = "24670294"
 tags = ["cheat", "cheats"]
 
 [[mod]]
+id = "r-u-s-e-field-manual-v1"
+name = "R.U.S.E. Field Manual"
+version = "1.0.0"
+author = "nickgit"
+description = "Historical rebalance and expanded roster: sourced reload times, real armour on the unit cards, twenty-two new units (several wearing other nations' models), reworked Italian barracks, faster Me 262, 10-aircraft airfields, faster logistics."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/ruse-field-manual-1.0.0/r-u-s-e-field-manual-v1-1.0.0.rusemod"
+size = 662302
+sha256 = "60bf55e15b01397d1023030a17417782f2983c53dfa94f3ebbc5f49ebe20b251"
+game_build = "24670294"
+tags = ["gameplay"]
+
+[[mod]]
 id = "rcrbm-2-v1"
 name = "RCRBM 2"
 version = "1.0.1"

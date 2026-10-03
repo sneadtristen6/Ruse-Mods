@@ -2,13 +2,21 @@
 
 ## These are our mods
 
-Every mod below works with **RUSE Launcher**: each one builds with no errors on today's R.U.S.E. (Steam build 24670294). 74 mods, by the R.U.S.E. community.
+**75 mods by the R.U.S.E. community**, packaged for **RUSE Launcher**. The original 74 were checked for builds with no errors on Steam build 24670294; the newly added Field Manual package has passed package checks but has not been independently built or played here.
 
 **To install:** open RUSE Launcher, go to **Supported mods**, tick the ones you want and press Install. The Launcher checks every file before it adds it. Cheats and test tools are in their own group and are never installed unless you pick them.
 
-**Or download them here:** every mod has a **Download** link below (a `.rusemod` file: drop it on the Launcher's window to add it), and [all of them are on one page](https://github.com/sneadtristen6/Ruse-Mods/releases/tag/mods-2026-10-01).
+**Or download them here:** every mod has a **Download** link below (a `.rusemod` file: drop it on the Launcher's window to add it), and [all releases are here](https://github.com/sneadtristen6/Ruse-Mods/releases).
 
 This list is live: the Launcher reads it from here, so a mod added here shows up without updating the Launcher.
+
+### New release: R.U.S.E. Field Manual 1.0.0 — by nickgit
+
+**Created by nickgit.** A major overhaul with **22 new units**, every gun reworked from historical data, overhauled infantry, revised aircraft, prices and research, improved logistics, and more.
+
+- [Download for RUSE Launcher](https://github.com/sneadtristen6/Ruse-Mods/releases/download/ruse-field-manual-1.0.0/r-u-s-e-field-manual-v1-1.0.0.rusemod) — also listed in **Supported mods**.
+- [Download nickgit's original ZIP](https://github.com/sneadtristen6/Ruse-Mods/releases/download/ruse-field-manual-1.0.0/RUSE_Field_Manual_1.0.0.zip) — includes the `.rmod`, original install instructions for LittleGroove's RUSE Mod Manager, and full changelog.
+- [Release notes and known issues](https://github.com/sneadtristen6/Ruse-Mods/releases/tag/ruse-field-manual-1.0.0). Targets Steam build **24670294**; new unit descriptions are written in English and Italian (English in other languages). The author reports a loading crash in the first campaign mission after the prologue.
 
 ### Gameplay and balance
 
@@ -53,6 +61,7 @@ Prices, units, combat and economy.
 | No Regeneration | R.U.S.E. community | Disables out-of-combat health regeneration for every unit and building (RegenerationPinnedHorsCombat 10.0 -> 0.0) -- damage is permanent, units fight at... | [Download](https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/no-regeneration-1.0.0.rusemod) (1 KB) |
 | Only Air | ct_center | ever wanted to play battles with no air? no artillery? no tanks or no infantry? than this is the mod for you! simple limitations to allow more gameplay and to... | [Download](https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/only-air-v1-1.0.0.rusemod) (2 KB) |
 | Passable Forests | R.U.S.E. community | Lets every tank, tank destroyer, AA vehicle, and mobile artillery/assault gun enter forest terrain the way recon vehicles already can, by removing the... | [Download](https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/passable-forests-1.0.0.rusemod) (3 KB) |
+| R.U.S.E. Field Manual 1.0.0 | **nickgit** | 22 new units; historically reworked guns; overhauled infantry, aircraft, prices, research and logistics. | [Download](https://github.com/sneadtristen6/Ruse-Mods/releases/download/ruse-field-manual-1.0.0/r-u-s-e-field-manual-v1-1.0.0.rusemod) (647 KB) |
 | RCRBM 2 | CHANDAWG2007 | R.U.S.E CHANDAWG2007'S REALISTIC BALANCE MOD 2 (RCRBM 2) Find out for yourself :) | [Download](https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/rcrbm-2-v1-1.0.1.rusemod) (22 KB) |
 | RSCBM2 | SuperCrumpets | Balance changes: Ruses: Starting Ruse Cards 2->3 Blitz 120s->90s Terror 120s -> 180s morale mult 0.75->0.65 Spy 60s->120s Retreat speed mult 0.5->0.75 AntiTank... | [Download](https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/rscbm2-v1-1.0.1.rusemod) (34 KB) |
 | Realistic Ground War | lclmopar426 | This mod aims to rebalance the ground war mechanics of the game, changing nearly all of the stats for the ground units, buildings, and defenses. In general... | [Download](https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/realistic-ground-war-v1-1.35.0.rusemod) (16 KB) |
@@ -125,4 +134,4 @@ Never installed unless you pick them. Offline play only.
 2. Open a pull request to this repository that adds your mod's entry to `index.toml` (its size and SHA-256 are in the Studio's export note), or post the file in the [Discussions](https://github.com/sneadtristen6/R.U.S.E-2.0-Project/discussions) and we add it for you.
 3. Once it's in, it shows up in every player's Launcher, with your name on it.
 
-Mods are data only: no programs or scripts (the Launcher refuses them).
+Mods cannot include programs or PC scripts. Community `.rmod` packages may contain the game's own compiled scripts; the Launcher identifies these changes before building.
