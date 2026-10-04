@@ -2,13 +2,20 @@
 
 ## These are our mods
 
-**75 mods by the R.U.S.E. community**, packaged for **RUSE Launcher**. The original 74 were checked for builds with no errors on Steam build 24670294; the newly added Field Manual package has passed package checks but has not been independently built or played here.
+**76 mods by the R.U.S.E. community**, packaged for **RUSE Launcher**. The original 74 were checked for builds with no errors on Steam build 24670294; the newly added Field Manual package has passed package checks but has not been independently built or played here. Formations was built with no errors and played in skirmish here.
 
 **To install:** open RUSE Launcher, go to **Supported mods**, tick the ones you want and press Install. The Launcher checks every file before it adds it. Cheats and test tools are in their own group and are never installed unless you pick them.
 
 **Or download them here:** every mod has a **Download** link below (a `.rusemod` file: drop it on the Launcher's window to add it), and [all releases are here](https://github.com/sneadtristen6/Ruse-Mods/releases).
 
 This list is live: the Launcher reads it from here, so a mod added here shows up without updating the Launcher.
+
+### New release: Formations 0.3.0 — by sneadtristen6 and Claude
+
+**Formations for your move orders.** Select your units, press **1** for a V, **2** a square, **3** a line, **4** a column or **5** a circle, then right-click: each unit drives to its own place in the shape. **0** goes back to the game's own formation (and its right-drag). The picked shape shows on screen.
+
+- [Download for RUSE Launcher](https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-03/formations-0.3.0.rusemod) — also listed in **Supported mods**.
+- Tested in skirmish; in multiplayer every player needs it (not tested yet). It changes one of the game's scripts, the one that turns clicks into orders.
 
 ### New release: R.U.S.E. Field Manual 1.0.0 — by nickgit
 
@@ -47,6 +54,7 @@ Prices, units, combat and economy.
 | Faster Multi-Aircraft Takeoff | R.U.S.E. community | Raises airfield capacity from 8 to 24 planes and makes takeoffs and landings instant (no gap between launches or landings). | [Download](https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/faster-multi-takeoff-1.0.0.rusemod) (1 KB) |
 | Fixed Fighter Bomber Dodging | SuperCrumpets | Fighter Bomber Bombs Speed x4 Ammoids 1107, 1116, 1117 | [Download](https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/fixed-fighter-bomber-dodging-v1-1.0.0.rusemod) (1 KB) |
 | Formation Tweaks | SuperCrumpets | Larger Formations and more space between units, Tanks move closer together | [Download](https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/formation-tweaks-v1-1.0.0.rusemod) (1 KB) |
+| Formations | sneadtristen6, Claude | Pick a shape for your units' move orders with the number keys: 1 V, 2 square, 3 line, 4 column, 5 circle, then right-click. 0 goes back to the game's own... | [Download](https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-03/formations-0.3.0.rusemod) (13 KB) |
 | Free Placement Factories | R.U.S.E. community | Adds BuildPolicy=2 (the exact value every real bunker/defense structure uses for free placement, confirmed exclusive to that category across all 135 buildings)... | [Download](https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/free-placement-factories-2.0.0.rusemod) (3 KB) |
 | HQ Economy Mod | LittleGroove | Economy mod that changes how much the HQ, Admin, and Supply Depots give you. | [Download](https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/hq-economy-mod-v1-1.0.0.rusemod) (1 KB) |
 | Half Speed & Range | R.U.S.E. community | Halves movement speed, attack range (unit reflex range + weapon range), and vision range for every ground unit, aircraft, and infantry squad. | [Download](https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/half-speed-range-1.0.0.rusemod) (7 KB) |

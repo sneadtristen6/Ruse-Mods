@@ -899,3 +899,15 @@ size = 10023
 sha256 = "7e94aca11cae30e893e713c527b82f1e8b5a53f26919d78056bffc26df180a9e"
 game_build = "24670294"
 tags = ["operations"]
+
+[[mod]]
+id = "formations"
+name = "Formations"
+version = "0.3.0"
+author = "sneadtristen6, Claude"
+description = "Pick a shape for your units' move orders with the number keys: 1 V, 2 square, 3 line, 4 column, 5 circle, then right-click. 0 goes back to the game's own formation (and its right-drag). The picked shape shows on screen. Changes one of the game's scripts, the one that turns clicks into orders. Tested in skirmish; in multiplayer every player needs it (not tested yet)."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-03/formations-0.3.0.rusemod"
+size = 12850
+sha256 = "732eec7da8f087aa788128d5e5c233ad1f24705fa282c77202dd254b66a1975b"
+game_build = "24670294"
+tags = ["gameplay"]
