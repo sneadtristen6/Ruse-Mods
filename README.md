@@ -2,13 +2,21 @@
 
 ## These are our mods
 
-**76 mods by the R.U.S.E. community**, packaged for **RUSE Launcher**. The original 74 were checked for builds with no errors on Steam build 24670294; the newly added Field Manual package has passed package checks but has not been independently built or played here. Formations was built with no errors and played in skirmish here.
+**77 mods by the R.U.S.E. community**, packaged for **RUSE Launcher**. The original 74 were checked for builds with no errors on Steam build 24670294; the newly added Field Manual package has passed package checks but has not been independently built or played here. Formations was built with no errors and played in skirmish here. M1 Abrams was built with no errors here, and its unit and model were played in skirmish (its test build).
 
 **To install:** open RUSE Launcher, go to **Supported mods**, tick the ones you want and press Install. The Launcher checks every file before it adds it. Cheats and test tools are in their own group and are never installed unless you pick them.
 
 **Or download them here:** every mod has a **Download** link below (a `.rusemod` file: drop it on the Launcher's window to add it), and [all releases are here](https://github.com/sneadtristen6/Ruse-Mods/releases).
 
 This list is live: the Launcher reads it from here, so a mod added here shows up without updating the Launcher.
+
+### New release: M1 Abrams 1.0.0 — by sneadtristen6 and Claude
+
+**A new US tank with a 3D model of its own.** The M1 Abrams joins the Sherman at the Armor Base, with its own card in the build menu, and turns its turret like the game's tanks. It's the first model brought into R.U.S.E. from another 3D program, with RUSE Studio 0.9.6's **Import model**: make your own the same way.
+
+- [Download for RUSE Launcher](https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-04/m1-abrams-1.0.0.rusemod) — also listed in **Supported mods**. Needs RUSE Launcher 0.4.6 or later.
+- Early: its tracks and wheels don't turn yet, the gun's flash shows at the Sherman's muzzle, and it leaves a Sherman's wreck. Seen in the game built and turning its turret; not yet seen fighting.
+- Model: "Tank Abrams" by ags, from [downloadfree3d.com](https://downloadfree3d.com/3d-models/vehicles/tank/tank-abrams/) (free there; no license stated).
 
 ### New release: Formations 0.3.0 — by sneadtristen6 and Claude
 
@@ -114,6 +122,7 @@ Music, texts and the intro.
 | Mod | By | What it does | Get it |
 |---|---|---|---|
 | Custom Music: ruse_menu_ref-1 -> BoomBastic | R.U.S.E. community | Replaces the RUSE music track 'ruse_menu_ref-1' with 'BoomBastic' in full 48 kHz stereo, encoded with the recovered .ess codec (first stereo encoder). Only one... | [Download](https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/custom-music-ruse-menu-ref-1-1.0.0.rusemod) (13267 KB) |
+| M1 Abrams | sneadtristen6, Claude | A new US tank, the M1 Abrams, with a 3D model of its own beside the Sherman: built at the Armor Base with its own card, its turret turns like the game's tanks... | [Download](https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-04/m1-abrams-1.0.0.rusemod) (2181 KB) |
 | Meme Descriptions | R.U.S.E. community | The complete dank-meme Russopedia rewrite, all in one mod: every tank, anti-tank gun, artillery piece, aircraft, infantry unit, recon vehicle, anti-aircraft... | [Download](https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/meme-descriptions-1.0.0.rusemod) (19 KB) |
 | Meme Intro | R.U.S.E. community | Replaces the Eugen Systems studio splash video (plays at game startup) with a custom video... | [Download](https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/meme-intro-1.1.0.rusemod) (1933 KB) |
 
