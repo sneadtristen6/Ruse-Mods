@@ -1,0 +1,50 @@
+name: Check a mod sent to the list
+
+# Runs on "Add my mod" issues. It only reads the mod file (tools/check_submission.py never runs anything in it) and
+# comments with what it found. The issue's text reaches the script through an environment variable only, never
+# through the commands themselves.
+on:
+  issues:
+    types: [opened, edited]
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: check-${{ github.event.issue.number }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    if: contains(github.event.issue.labels.*.name, 'add-mod')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check the mod file
+        id: check
+        env:
+          BODY: ${{ github.event.issue.body }}
+        run: python tools/check_issue.py
+      - name: Comment and label
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NUMBER: ${{ github.event.issue.number }}
+          VERDICT: ${{ steps.check.outputs.verdict }}
+        run: |
+          gh issue comment "$NUMBER" --repo "$GITHUB_REPOSITORY" --body-file report.md
+          for label in "checks passed" "needs a look" "against the guidelines" "no file"; do
+            gh issue edit "$NUMBER" --repo "$GITHUB_REPOSITORY" --remove-label "$label" 2>/dev/null || true
+          done
+          case "$VERDICT" in
+            keeps) label="checks passed" ;;
+            look) label="needs a look" ;;
+            against) label="against the guidelines" ;;
+            *) label="no file" ;;
+          esac
+          gh label create "$label" --repo "$GITHUB_REPOSITORY" --force >/dev/null 2>&1 || true
+          gh issue edit "$NUMBER" --repo "$GITHUB_REPOSITORY" --add-label "$label"

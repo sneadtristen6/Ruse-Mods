@@ -147,8 +147,10 @@ Never installed unless you pick them. Offline play only.
 
 ## Made a mod? Add it here
 
-1. In RUSE Studio, export your mod (**Export** makes one `.rusemod` file).
-2. Open a pull request to this repository that adds your mod's entry to `index.toml` (its size and SHA-256 are in the Studio's export note), or post the file in the [Discussions](https://github.com/sneadtristen6/R.U.S.E-2.0-Project/discussions) and we add it for you.
-3. Once it's in, it shows up in every player's Launcher, with your name on it.
+1. In RUSE Studio, export your mod, then press **Publish**: it opens the **[Add my mod](https://github.com/sneadtristen6/Ruse-Mods/issues/new?template=add-mod.yml)** form filled in, and saves a `.zip` of your mod to attach. (Made with RUSE Mod Manager? Open the form yourself and attach your `.rmod` in a `.zip`.)
+2. Tell us what the mod does, what it changes, and what its code does. An automatic check reads the file (it never runs anything in it) and comments within a few minutes.
+3. We read the form, try the mod, and add it. It then shows up in every player's Launcher, with your name on it.
 
-Mods cannot include programs or PC scripts. Community `.rmod` packages may contain the game's own compiled scripts; the Launcher identifies these changes before building.
+What can go on the list, and what can't: **[the guidelines](GUIDELINES.md)**. In short: no programs and nothing that runs on your PC, nothing that changes the game's install, changes to the game's own scripts only when explained, cheats only in their own group, and credit for everyone whose work is in it.
+
+Experienced with GitHub? A pull request that adds your entry to `index.toml` works too; we run the same check on it before merging (`python tools/check_submission.py <your mod>`).

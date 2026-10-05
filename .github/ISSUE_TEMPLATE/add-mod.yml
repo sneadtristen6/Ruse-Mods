@@ -1,0 +1,144 @@
+name: Add my mod
+description: Send a mod to the list. It shows up in every player's RUSE Launcher once it's checked.
+title: "Add mod: "
+labels: ["add-mod"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for sharing your mod! RUSE Studio's **Publish** fills most of this in for you.
+
+        What happens next: an automatic check reads your file (it never runs anything in it) and comments here within
+        a few minutes. Then one of us reads the form, tries the mod, and adds it to the list. If something needs
+        changing, we'll say so here.
+
+        Please read the [guidelines](https://github.com/sneadtristen6/Ruse-Mods/blob/main/GUIDELINES.md) first. What
+        you write below is for us to know what the mod does before it's listed; only the short description goes on
+        the list.
+  - type: input
+    id: mod_name
+    attributes:
+      label: Mod name
+      description: As players will see it.
+      placeholder: Formations
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      placeholder: 1.0.0
+    validations:
+      required: true
+  - type: input
+    id: credit
+    attributes:
+      label: Credit
+      description: The name (or names) to show as the mod's author.
+    validations:
+      required: true
+  - type: dropdown
+    id: made_with
+    attributes:
+      label: Made with
+      options:
+        - RUSE Studio
+        - RUSE Mod Manager (.rmod)
+        - RUSE Studio and RUSE Mod Manager
+        - Something else (say which below)
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of mod
+      options:
+        - Units and balance
+        - Maps
+        - Operations, missions or game modes
+        - Sound, looks or text
+        - AI
+        - Cheat or test tool (offline only; listed in its own group)
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: What it does
+      description: One or two sentences for players. This is what the list shows.
+      placeholder: Pick a shape for your units' move orders with the number keys, then right-click.
+    validations:
+      required: true
+  - type: textarea
+    id: changes
+    attributes:
+      label: What it changes in the game
+      description: >-
+        Be specific: which units and which of their values (prices, armour, range...), which maps and what on them,
+        which texts, sounds or pictures, new units or buildings. A list is fine.
+    validations:
+      required: true
+  - type: textarea
+    id: code
+    attributes:
+      label: What its code does
+      description: >-
+        Does it change any of the game's own scripts (the game's mission, menu or input scripts)? If yes: which ones,
+        and what each change does, step by step, in plain words. Does anything in it run while you play, react to
+        keys or clicks, or change what other players see? If it only changes data (values, maps, texts), say "data only".
+    validations:
+      required: true
+  - type: textarea
+    id: others_work
+    attributes:
+      label: Anyone else's work in it?
+      description: >-
+        Models, pictures, sounds, music, maps or code someone else made: who made them, and how you're allowed to use
+        them (their licence or their OK). If it's all yours, say so.
+    validations:
+      required: true
+  - type: dropdown
+    id: tested
+    attributes:
+      label: How far have you tested it?
+      options:
+        - Played in a skirmish
+        - Played in multiplayer
+        - Played in an Operation or campaign chapter
+        - Built with no errors, not played yet
+    validations:
+      required: true
+  - type: input
+    id: game_build
+    attributes:
+      label: Game build
+      description: The Steam build of R.U.S.E. you made it on. RUSE Studio fills this in.
+  - type: textarea
+    id: entry
+    attributes:
+      label: List entry
+      description: RUSE Studio's Export writes this. Leave it empty if you don't have one; we'll make it.
+      render: toml
+  - type: textarea
+    id: file
+    attributes:
+      label: The mod file
+      description: >-
+        Drag your mod here as a .zip (RUSE Studio's Publish saves one next to your export; for a .rmod, zip it first).
+        GitHub takes .zip files up to 25 MB here; for a bigger mod, put a link to a GitHub release.
+    validations:
+      required: true
+  - type: checkboxes
+    id: agree
+    attributes:
+      label: Before you send it
+      options:
+        - label: I've read the guidelines, and my mod keeps to them.
+          required: true
+        - label: It has no programs and nothing that runs on the PC, and it doesn't change the game's install.
+          required: true
+        - label: I made it, or I have permission for everything in it, and I've named everyone above.
+          required: true
+        - label: What I wrote about what it changes and what its code does is complete and true.
+          required: true
