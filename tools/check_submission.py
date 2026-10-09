@@ -8,8 +8,9 @@ holding one of those. Exit code: 0 = keeps to the rules, 1 = keeps to them but n
 the game's own scripts), 2 = against the rules (the report says why). Standard library only (Python 3.11+).
 
 The rules mirror RUSE Studio's and RUSE Launcher's own (the Launcher refuses the same files when it installs a mod):
-no programs and nothing that runs on the PC; the game's own scripts only inside a .rmod, said in the form; a mod
-changes the game's data in a modded copy, never the game's install or its program.
+no programs and nothing that runs on the PC; the game's own scripts only inside a .rmod, or as the game's mission
+scripts saved by RUSE Studio (scripts/<map>/<part>/*.py and *.xyz, rusemod.mapscripts.is_mod_script), said in the form
+and looked at first; a mod changes the game's data in a modded copy, never the game's install or its program.
 """
 from __future__ import annotations
 
@@ -64,6 +65,16 @@ class Report:
 def suffixes(path: str) -> set[str]:
     """Every extension along a path (folder names included), lowercase."""
     return {PurePosixPath(p).suffix.lower() for p in path.replace("\\", "/").split("/") if p}
+
+
+def mission_script(rel: str) -> bool:
+    """One of the game's mission scripts as RUSE Studio saves them in a mod: scripts/<map>/<part>/<file>.py, or the .xyz
+    made from it, each name letters, digits, _, - and dots (the Studio's own rule, rusemod.mapscripts.is_mod_script).
+    Allowed since Studio 0.9.8.1; a maintainer looks first (the owner, 2026-10-09: "needs a look instead of just
+    outright refusing them")."""
+    parts = rel.replace("\\", "/").split("/")
+    return (len(parts) >= 4 and parts[0] == "scripts" and PurePosixPath(rel).suffix.lower() in (".py", ".xyz")
+            and all(re.fullmatch(r"[A-Za-z0-9_.-]+", p) and p not in (".", "..") for p in parts[1:]))
 
 
 def unsafe_path(path: str) -> bool:
@@ -151,15 +162,23 @@ def check_package(z: zipfile.ZipFile, where: str, rep: Report) -> None:
             rel.split("/", 1)[0] if "/" in rel else "(top)", 0) + 1
     rep.notes.append("Files by folder: " + ", ".join(f"`{k}` {v}" for k, v in sorted(by_folder.items())) + ".")
     rmods = [n for n in names if n.lower().endswith(".rmod")]
+    scripts = []
     for n in names:
         kinds = suffixes(n)
         if n.lower().endswith(".rmod"):
             continue
-        if kinds & RUNNABLE:
-            rep.refused.append(f"`{n}` would run on the PC or in the game; RUSE Studio mods can't bring scripts or "
-                               f"programs (a .rmod may change the game's own scripts, said in the form).")
+        if mission_script(n[len(top):] if n.startswith(top) else n):
+            scripts.append(n[len(top):] if n.startswith(top) else n)
+        elif kinds & RUNNABLE:
+            rep.refused.append(f"`{n}` would run on the PC or in the game; a RUSE Studio mod brings no programs and no "
+                               f"scripts but the game's mission scripts as the Studio saves them (`scripts/<map>/<part>/`), "
+                               f"and a .rmod may change the game's own scripts, said in the form.")
         elif kinds & {".zip", ".rusemod", ".7z", ".rar"}:
             rep.refused.append(f"`{n}` is an archive inside the mod; send its contents instead.")
+    if scripts:
+        shown = ", ".join(f"`{s}`" for s in sorted(scripts)[:4])
+        rep.review.append(f"It changes the game's mission scripts as RUSE Studio saves them: {len(scripts)} file(s) "
+                          f"({shown}{', …' if len(scripts) > 4 else ''}). The form must say what each change does.")
     for n in rmods:
         check_rmod(z.read(n), n, rep)
 

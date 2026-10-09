@@ -50,6 +50,14 @@ class NeedsALook(unittest.TestCase):
         self.assertEqual(rep.code(), 1)
         self.assertIn("1 of the game's scripts", rep.review[0])
 
+    def test_studio_mission_scripts(self):
+        """The owner, 2026-10-09: a Studio mod's mission scripts get a look, not a refusal."""
+        rep = verdict("m.zip", zipped({"test-mod/mod.toml": TOML,
+                                       "test-mod/scripts/m04_cotentin/part_1/effetmap.py": b"x",
+                                       "test-mod/scripts/m04_cotentin/part_1/effetmap.xyz": b"x"}))
+        self.assertEqual(rep.code(), 1, rep.refused)
+        self.assertIn("mission scripts as RUSE Studio saves them: 2 file(s)", rep.review[0])
+
 
 class Refused(unittest.TestCase):
     def test_program_in_package(self):
@@ -61,6 +69,8 @@ class Refused(unittest.TestCase):
 
     def test_game_script_in_studio_mod(self):
         self.assertEqual(verdict("m.zip", zipped({"mod.toml": TOML, "files/a.xyz": b"x"})).code(), 2)
+        for wrong in ("scripts/map/x.py", "scripts/map/part/run.exe", "scripts/map/part/a b.py", "src/scripts/m/p/x.py"):
+            self.assertEqual(verdict("m.zip", zipped({"mod.toml": TOML, wrong: b"x"})).code(), 2, wrong)
 
     def test_rmod_writes_the_program(self):
         self.assertEqual(verdict("m.rmod", rmod(("RUSE.exe", "", "RUSE.exe"))).code(), 2)
