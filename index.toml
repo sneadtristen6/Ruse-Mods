@@ -711,12 +711,12 @@ tags = ["cheat", "cheats"]
 [[mod]]
 id = "r-u-s-e-field-manual-v1"
 name = "R.U.S.E. Field Manual"
-version = "1.0.0"
+version = "1.1.0"
 author = "nickgit"
-description = "Historical rebalance and expanded roster: sourced reload times, real armour on the unit cards, twenty-two new units (several wearing other nations' models), reworked Italian barracks, faster Me 262, 10-aircraft airfields, faster logistics."
-download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/ruse-field-manual-1.0.0/r-u-s-e-field-manual-v1-1.0.0.rusemod"
-size = 662302
-sha256 = "60bf55e15b01397d1023030a17417782f2983c53dfa94f3ebbc5f49ebe20b251"
+description = "Historical rebalance and expanded roster: sourced reload times, real armour on the unit cards, twenty-three new units (several wearing other nations' models, the KV-2 with a model of its own), research locks, every tracked vehicle at its real speed, reworked Italian barracks, faster Me 262, 10-aircraft airfields, faster logistics. Changes two of the game's scripts (the unit list, and the research manager for the KV-2's lock)."
+download = "https://github.com/sneadtristen6/Ruse-Mods/releases/download/ruse-field-manual-1.1.0/r-u-s-e-field-manual-v1-1.1.0.rusemod"
+size = 19578751
+sha256 = "802449b2fe53d5f30380d5abac3a5114cbeb691991170c2469b6641043d014db"
 game_build = "24670294"
 tags = ["gameplay"]
 

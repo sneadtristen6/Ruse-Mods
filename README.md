@@ -2,13 +2,24 @@
 
 ## These are our mods
 
-**77 mods by the R.U.S.E. community**, packaged for **RUSE Launcher**. The original 74 were checked for builds with no errors on Steam build 24670294; the newly added Field Manual package has passed package checks but has not been independently built or played here. Formations was built with no errors and played in skirmish here. M1 Abrams was built with no errors here, and its unit and model were played in skirmish (its test build).
+**77 mods by the R.U.S.E. community**, packaged for **RUSE Launcher**. The original 74 were checked for builds with no errors on Steam build 24670294; the Field Manual package (1.1.0) has passed package checks but has not been independently built or played here. Formations was built with no errors and played in skirmish here. M1 Abrams was built with no errors here, and its unit and model were played in skirmish (its test build).
 
 **To install:** open RUSE Launcher, go to **Supported mods**, tick the ones you want and press Install. The Launcher checks every file before it adds it. Cheats and test tools are in their own group and are never installed unless you pick them.
 
 **Or download them here:** every mod has a **Download** link below (a `.rusemod` file: drop it on the Launcher's window to add it), and [all releases are here](https://github.com/sneadtristen6/Ruse-Mods/releases).
 
 This list is live: the Launcher reads it from here, so a mod added here shows up without updating the Launcher.
+
+### New release: R.U.S.E. Field Manual 1.1.0 — by nickgit
+
+**nickgit's work.** 1.1.0 adds a twenty-third new unit, the **KV-2**, with a 3D model of its own, a 152 mm howitzer that
+breaks bunkers, and a research lock: it comes after the KV-1. **Every tracked vehicle now moves at its real speed** (one
+rule for 103 of them), the BT-7 becomes the BT-7M, and guns and models are fixed. Players with 1.0.0 get the update in
+the Launcher.
+
+- [Download for RUSE Launcher](https://github.com/sneadtristen6/Ruse-Mods/releases/download/ruse-field-manual-1.1.0/r-u-s-e-field-manual-v1-1.1.0.rusemod) — also listed in **Supported mods**.
+- [Download nickgit's original ZIP](https://github.com/sneadtristen6/Ruse-Mods/releases/download/ruse-field-manual-1.1.0/RUSE_Field_Manual_1.1.0.zip) — includes the `.rmod`, original install instructions for LittleGroove's RUSE Mod Manager, and full changelog.
+- [Release notes and known issues](https://github.com/sneadtristen6/Ruse-Mods/releases/tag/ruse-field-manual-1.1.0). Targets Steam build **24670294**; new unit descriptions are written in English and Italian (English in other languages). It changes two of the game's scripts: the unit list (the KV-2) and the research manager (the KV-2's lock, which keeps a short log, `FieldManual_locks.log`, next to the game or in Windows' temporary folder). KV-2 model: "KV-2" by mamont nikita (downloadfree3d.com), as nickgit credits it.
 
 ### New release: M1 Abrams 1.0.0 — by sneadtristen6 and Claude
 
@@ -24,14 +35,6 @@ This list is live: the Launcher reads it from here, so a mod added here shows up
 
 - [Download for RUSE Launcher](https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-03/formations-0.3.0.rusemod) — also listed in **Supported mods**.
 - Tested in skirmish; in multiplayer every player needs it (not tested yet). It changes one of the game's scripts, the one that turns clicks into orders.
-
-### New release: R.U.S.E. Field Manual 1.0.0 — by nickgit
-
-**Created by nickgit.** A major overhaul with **22 new units**, every gun reworked from historical data, overhauled infantry, revised aircraft, prices and research, improved logistics, and more.
-
-- [Download for RUSE Launcher](https://github.com/sneadtristen6/Ruse-Mods/releases/download/ruse-field-manual-1.0.0/r-u-s-e-field-manual-v1-1.0.0.rusemod) — also listed in **Supported mods**.
-- [Download nickgit's original ZIP](https://github.com/sneadtristen6/Ruse-Mods/releases/download/ruse-field-manual-1.0.0/RUSE_Field_Manual_1.0.0.zip) — includes the `.rmod`, original install instructions for LittleGroove's RUSE Mod Manager, and full changelog.
-- [Release notes and known issues](https://github.com/sneadtristen6/Ruse-Mods/releases/tag/ruse-field-manual-1.0.0). Targets Steam build **24670294**; new unit descriptions are written in English and Italian (English in other languages). The author reports a loading crash in the first campaign mission after the prologue.
 
 ### Gameplay and balance
 
@@ -77,7 +80,7 @@ Prices, units, combat and economy.
 | No Regeneration | R.U.S.E. community | Disables out-of-combat health regeneration for every unit and building (RegenerationPinnedHorsCombat 10.0 -> 0.0) -- damage is permanent, units fight at... | [Download](https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/no-regeneration-1.0.0.rusemod) (1 KB) |
 | Only Air | ct_center | ever wanted to play battles with no air? no artillery? no tanks or no infantry? than this is the mod for you! simple limitations to allow more gameplay and to... | [Download](https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/only-air-v1-1.0.0.rusemod) (2 KB) |
 | Passable Forests | R.U.S.E. community | Lets every tank, tank destroyer, AA vehicle, and mobile artillery/assault gun enter forest terrain the way recon vehicles already can, by removing the... | [Download](https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/passable-forests-1.0.0.rusemod) (3 KB) |
-| R.U.S.E. Field Manual 1.0.0 | **nickgit** | 22 new units; historically reworked guns; overhauled infantry, aircraft, prices, research and logistics. | [Download](https://github.com/sneadtristen6/Ruse-Mods/releases/download/ruse-field-manual-1.0.0/r-u-s-e-field-manual-v1-1.0.0.rusemod) (647 KB) |
+| R.U.S.E. Field Manual 1.1.0 | **nickgit** | 23 new units (a KV-2 with its own model); historically reworked guns and real tracked-vehicle speeds; overhauled infantry, aircraft, prices, research and logistics. | [Download](https://github.com/sneadtristen6/Ruse-Mods/releases/download/ruse-field-manual-1.1.0/r-u-s-e-field-manual-v1-1.1.0.rusemod) (18.7 MB) |
 | RCRBM 2 | CHANDAWG2007 | R.U.S.E CHANDAWG2007'S REALISTIC BALANCE MOD 2 (RCRBM 2) Find out for yourself :) | [Download](https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/rcrbm-2-v1-1.0.1.rusemod) (22 KB) |
 | RSCBM2 | SuperCrumpets | Balance changes: Ruses: Starting Ruse Cards 2->3 Blitz 120s->90s Terror 120s -> 180s morale mult 0.75->0.65 Spy 60s->120s Retreat speed mult 0.5->0.75 AntiTank... | [Download](https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/rscbm2-v1-1.0.1.rusemod) (34 KB) |
 | Realistic Ground War | lclmopar426 | This mod aims to rebalance the ground war mechanics of the game, changing nearly all of the stats for the ground units, buildings, and defenses. In general... | [Download](https://github.com/sneadtristen6/Ruse-Mods/releases/download/mods-2026-10-01/realistic-ground-war-v1-1.35.0.rusemod) (16 KB) |
